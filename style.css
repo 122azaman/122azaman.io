@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+  color: rgb(46, 0, 110);
+  font-size: 60px;
+  font-family: 'Great Vibes', cursive;
+}
+h3 {
+  text-align:center;
+  color: rgb(46, 0, 110);
+  font-size: 27px;
+  font-family: 'Srisakdi', cursive;
+}
+body {
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(215,255,230)
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+  font-family: 'Srisakdi', cursive;
+}
+td {
+  text-align: center;
+  width: 260px;
+  height: 60px;
+}
+p {
+  font-family: 'Cinzel', serif;
+}
+img {
+  height: 175px;
+  width: 500px;
+}
+.links {
+  font-size: 15px;
+}
+.dropbtn {
+  border: none;
+  background-color: rgb(215,255,230);
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+}
+.dropdown-content {
+  display: none;
+  position: center;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content p{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: rgb(215,255,230);
+}
+.dropdown:active .dropdown-content {
+  display: block;
+}
