@@ -1,3 +1,41 @@
+.dropbutton {
+  border: none;
+  background-color: rgb(170, 240, 250);
+  font-family: 'Cinzel', serif;;
+  font-size: 20px;
+}
+.dropsdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropsdown-content a {
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  background-color: rgb(190, 245, 250);
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+.dropsdown:hover .dropsdown-content {display: block;}
+.table1 {
+  border: solid black;
+  text-align: left;
+  background-color: rgb(170, 240, 250);
+}
+#tdtop {
+  text-align: left;
+  height: 50px;
+  width: 1885px;
+  padding-left: 10px;
+}
 h1 {
   text-align: center;
   color: rgb(185, 255, 200);
@@ -62,11 +100,19 @@ img {
 .dropdown:active .dropdown-content {
   display: block;
 }
-.table1 {
+.table2 {
   width: 500px;
 }
 img.pic:hover {
-  width: 525px;
-  height: 200px;
+  width: 550px;
+  height: 225px;
   transition: height 1s, width 1s, filter 1s;
+}
+#rectangle {
+  transition: 1s, 1s, 1s;
+}
+img#rectangle:active {
+    transform: rotate(360deg);
+    width: 550px;
+    height: 225px;
 }
